@@ -21,10 +21,10 @@
             </div>
             <div class="col-md-6">
                 <div class="input-section half-width">
-                    <input class="form-control" type="text">
+                    <input id="calScreen" class="form-control" type="text">
                     <div class="numbers">
-                        <div class="calc-body">
-                            <div class="calc-button-row">
+                        <div id="key-board" class="calc-body">
+                            <div id="test" class="calc-button-row">
                                 <div class="button">7</div>
                                 <div class="button">8</div>
                                 <div class="button">9</div>
@@ -53,8 +53,8 @@
                 </div>
             </div>
             <div class="notify-section">
-                <p class="notify">❌ Pin Didn't Match, Please try again</p>
-                <p class="notify">✅ Pin Matched... Secret door is opening for you</p>
+                <p id="failure" class="notify">❌ Pin Didn't Match, Please try again</p>
+                <p id="success" class="notify">✅ Pin Matched... Secret door is opening for you</p>
             </div>
         </div>
         <script src="apps.js"></script>
